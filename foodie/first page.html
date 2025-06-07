@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Flavorsome Recipes</title>
+</head>
+
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en', // Your default language
+      includedLanguages: 'en,hi,te,ta,ml,kn', // Your desired languages
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+<body>
+    <header>
+        <div class="logo">FOOODIE.</div>
+        <div class="nav-bar">
+           <div id="google_translate_element"></div>
+
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+ <main>
+    <section class="carousel next">
+        <div class="list">
+
+            <!-- Item 1 -->
+            <article class="item other_1">
+                  <div class="main-content" style="background-color:#213032;color:whitesmoke">
+                    <div class="content">
+                        <h2>Welcome</h2>
+                        <p class="price">Foodies..!!!</p>
+                        <p class="description"></p>
+                         <button onclick="location.href='#categories'" class="addToCard">See More..</button>
+                    </div>
+                </div>
+                <figure class="image">
+                    <img src="mc2.png" alt="Hyderabadi Dum Biryani">
+                    <figcaption>Main Courses</figcaption>
+                </figure>
+            </article>
+
+            <!-- Item 2 -->
+            <article class="item active">
+                <div class="main-content" style="background-color:#213032;color:whitesmoke">
+                    <div class="content">
+                        <h2>Desserts</h2>
+                        <p class="price"></p>
+                        <p class="description">Sweet moments served.</p>
+                          <button onclick="location.href='#categories'" class="addToCard">See More..</button>
+                    </div>
+                </div>
+                <figure class="image">
+                    <img src="ds1.png" alt="Strawberry Mocha">
+                    <figcaption>Sweets</figcaption>
+                </figure>
+            </article>
+
+            <!-- Item 3 -->
+            <article class="item other_2">
+                <div class="main-content" style="background-color:#213032;color:whitesmoke">
+                    <div class="content">
+                        <h2>Healthy Eats</h2>
+                        <p class="price"></p>
+                        <p class="description">Real food, real energy.</p>
+                          <button onclick="location.href='#categories'" class="addToCard">See More..</button>
+                    </div>
+                </div>
+                <figure class="image">
+                    <img src="he1.png" alt="Doppio Espresso">
+                    <figcaption>Soups</figcaption>
+                </figure>
+            </article>
+
+            <!-- Item 4 -->
+            <article class="item">
+                <div class="main-content" style="background-color:#213032;color:whitesmoke">
+                    <div class="content">
+                        <h2>Baking</h2>
+                        <p class="price"></p>
+                        <p class="description">Warm from the oven.</p>
+                        <button onclick="location.href='#categories'" class="addToCard">See More..</button>
+                    </div>
+                </div>
+                <figure class="image">
+                    <img src="b1.png" alt="Matcha Latte Macchiato">
+                    <figcaption>Cakes</figcaption>
+                </figure>
+            </article>
+
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="arrows">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </section>
+</main>
+
+
+    <!----About Section Start---------------------------------->
+    <section class="about" id="About">
+        <h2>About Us</h2>
+        <div class="main">
+            <img src="20 Indian Thali Ideas.png" alt="">
+            <div class="about-text">
+                <p>Welcome to our recipe website, where culinary inspiration meets delicious creations! Whether you're a
+                    seasoned chef or a passionate home cook, we are here to ignite your taste buds and guide you on a
+                    delightful culinary journey. Our extensive collection of recipes covers a wide range of cuisines,
+                    from comforting classics to innovative fusion dishes. Each recipe is thoughtfully crafted, tested,
+                    and presented with step-by-step instructions, ensuring that even the novice cook can create
+                    extraordinary meals. We believe that cooking is an art form that brings people together, and our
+                    goal is to empower you to explore your culinary creativity and make every meal a masterpiece. So
+                    come on in, explore our diverse recipe collection, and let's embark on a delightful gastronomic
+                    adventure together!</p>
+
+            </div>
+        </div>
+    </section>
+    <!-----Recipes Section Start---------------------------------->
+    <div class="recipe" id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="box">
+            <div class="card">
+                <img src="r1.png" alt="">
+                <div class="content">
+                    <h3>Recipe 1</h3>
+                    <P>Honey Chilli Potatoes</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="r2.png" alt="">
+                <div class="content">
+                    <h3>Recipe 2</h3>
+                    <P>Mutton Dhum Biryani</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="r3.png" alt="">
+                <div class="content">
+                    <h3>Recipe 3</h3>
+                    <P>Chicken chettinad gravy</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="r4.png" alt="">
+                <div class="content">
+                    <h3>Recipe 4</h3>
+                    <P>Nellore Chepala pulusu</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="r5.png" alt="">
+                <div class="content">
+                    <h3>Recipe 5</h3>
+                    <P>Mushroom Masala</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="r6.png" alt="">
+                <div class="content">
+                    <h3>Recipe 6</h3>
+                    <P>Vegetable Soup</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="r7.png" alt="">
+                <div class="content">
+                    <h3>Recipe 7</h3>
+                    <P>Pesarattu Upma</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="r8.png" alt="">
+                <div class="content">
+                    <h3>Recipe 8</h3>
+                    <P>Mirchi Bajji</P>
+                    <button>View Recipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+const recipes = {
+ "Honey Chilli Potatoes": {
+  title: "Honey Chilli Potatoes",
+  image: "r1.png",
+  ingredients: [
+    "3 large potatoes (cut into thin wedges or fingers)",
+    "2 tablespoons cornflour",
+    "2 tablespoons all-purpose flour (maida)",
+    "Salt to taste",
+    "Oil for deep frying",
+    "1 tablespoon chopped garlic",
+    "1 tablespoon red chilli flakes",
+    "2 tablespoons tomato ketchup",
+    "1 tablespoon soy sauce",
+    "1 tablespoon honey",
+    "1 teaspoon vinegar",
+    "Spring onions or sesame seeds (for garnish)"
+  ],
+  steps: [
+    "Peel and cut the potatoes into thin wedges or fingers. Rinse them in water and pat dry.",
+    "In a bowl, mix cornflour, all-purpose flour, and a pinch of salt. Add the potatoes and coat them evenly.",
+    "Heat oil in a pan or deep fryer. Fry the coated potatoes on medium heat until golden and crispy. Remove and drain on paper towels.",
+    "In a separate pan, heat 1 tablespoon oil. Add chopped garlic and sauté until fragrant.",
+    "Add red chilli flakes, tomato ketchup, soy sauce, honey, and vinegar. Stir well to make a thick sauce.",
+    "Toss the crispy fried potatoes into the sauce and mix until evenly coated.",
+    "Garnish with chopped spring onions or sesame seeds.",
+    "Serve hot as an appetizer or snack."
+  ],
+ },
+"Mutton Dhum Biryani": {
+  title: "Mutton Dhum Biryani",
+  image: "r2.png",
+  ingredients: [
+    "500g mutton (bone-in, cleaned)",
+    "2 cups basmati rice (soaked for 30 minutes)",
+    "1 cup thick yogurt (curd)",
+    "2 large onions (thinly sliced)",
+    "1 tablespoon ginger-garlic paste",
+    "1 teaspoon red chili powder",
+    "1/2 teaspoon turmeric powder",
+    "1 teaspoon garam masala",
+    "Whole spices (4 cloves, 2 cardamoms, 1 bay leaf, 1 small cinnamon stick)",
+    "1/2 cup chopped coriander leaves",
+    "1/2 cup chopped mint leaves",
+    "4 tablespoons ghee or oil",
+    "Salt to taste",
+    "A few strands of saffron soaked in 2 tablespoons warm milk"
+  ],
+  steps: [
+    "In a large bowl, marinate the mutton with yogurt, ginger-garlic paste, red chili powder, turmeric, salt, and half of the mint and coriander leaves. Cover and let it rest for at least 2 hours (or overnight for best results).",
+    "Fry the sliced onions in hot oil or ghee until golden brown and crispy. Set aside half for layering.",
+    "Cook the soaked basmati rice in plenty of water with salt and whole spices until it is 70% cooked. Drain and set aside.",
+    "In a heavy-bottomed pot, spread the marinated mutton at the bottom. Add a layer of fried onions, mint, and coriander.",
+    "Now layer the partially cooked rice over the mutton. Top with the remaining fried onions, mint, coriander, and saffron milk.",
+    "Drizzle ghee on top. Cover the pot with a tight lid (or seal with dough) and cook on low heat ('dum') for 40–45 minutes.",
+    "Turn off the heat and let it rest for 10 minutes before opening the lid.",
+    "Gently mix before serving. Enjoy with raita or salan."
+  ]
+},
+"Chicken chettinad gravy": {
+  title: "Chicken Chettinad Gravy",
+  image: "r3.png",
+  ingredients: [
+    "500g chicken (bone-in, cut into medium pieces)",
+    "2 tablespoons oil",
+    "2 onions (finely chopped)",
+    "1 tomato (finely chopped)",
+    "1 tablespoon ginger-garlic paste",
+    "1/2 teaspoon turmeric powder",
+    "1 teaspoon red chili powder",
+    "Salt to taste",
+    "Coriander leaves (for garnish)",
+
+    "For Chettinad Masala:",
+    "1 tablespoon coriander seeds",
+    "1 teaspoon cumin seeds",
+    "1 teaspoon fennel seeds",
+    "4–5 black peppercorns",
+    "2 dried red chilies",
+    "1-inch cinnamon stick",
+    "2 cloves",
+    "1 green cardamom",
+    "2 tablespoons grated coconut (fresh or dry)"
+  ],
+  steps: [
+    "Dry roast all the Chettinad masala ingredients in a pan until aromatic. Let them cool, then grind into a coarse powder or paste with a little water. Set aside.",
+    "Heat oil in a heavy-bottomed pan. Add chopped onions and sauté until golden brown.",
+    "Add ginger-garlic paste and cook for 1–2 minutes until the raw smell disappears.",
+    "Add chopped tomato and cook until soft and mushy.",
+    "Add turmeric, red chili powder, and salt. Mix well.",
+    "Add the chicken pieces and sauté on medium heat for 5–7 minutes until they are sealed and start to release moisture.",
+    "Add the prepared Chettinad masala paste. Mix well to coat the chicken evenly.",
+    "Add 1/2 to 1 cup water (depending on desired gravy thickness), cover, and cook for 20–25 minutes until the chicken is fully cooked and tender.",
+    "Garnish with chopped coriander leaves and serve hot with rice, chapati, or dosa."
+  ],
+},
+"Nellore Chepala Pulusu": {
+  title: "Nellore Chepala Pulusu",
+  image: "r4.png",
+  ingredients: [
+    "500g fish (cleaned and cut)",
+    "2 onions (sliced)",
+    "2 tomatoes (chopped)",
+    "2-3 green chilies",
+    "1 tbsp tamarind paste",
+    "1 tsp mustard seeds",
+    "1 tsp fenugreek seeds",
+    "1/2 tsp turmeric powder",
+    "1 tsp red chili powder",
+    "Curry leaves",
+    "Salt to taste",
+    "2 tbsp oil",
+    "Fresh coriander for garnish"
+  ],
+  steps: [
+    "Heat oil in a pan. Add mustard seeds and fenugreek seeds, let them splutter.",
+    "Add sliced onions and curry leaves; sauté until onions are golden brown.",
+    "Add tomatoes, green chilies, turmeric, and red chili powder. Cook until tomatoes are soft.",
+    "Add tamarind paste and salt. Add water as needed and bring to a boil.",
+    "Add the fish pieces carefully and simmer on low heat until fish is cooked through (about 15-20 minutes).",
+    "Garnish with fresh coriander and serve hot with steamed rice."
+  ]
+},
+
+
+"Mushroom Masala": {
+  title: "Mushroom Masala",
+  image: "r5.png",
+  ingredients: [
+    "250g mushrooms (cleaned and sliced)",
+    "2 medium onions (finely chopped)",
+    "2 tomatoes (pureed)",
+    "1 tablespoon ginger-garlic paste",
+    "2 green chilies (slit)",
+    "1/2 teaspoon turmeric powder",
+    "1 teaspoon red chili powder",
+    "1 teaspoon coriander powder",
+    "1/2 teaspoon garam masala",
+    "1/2 cup yogurt (whisked)",
+    "2 tablespoons oil",
+    "Salt to taste",
+    "Fresh coriander leaves for garnish"
+  ],
+  steps: [
+    "Heat oil in a pan. Add chopped onions and sauté until golden brown.",
+    "Add ginger-garlic paste and green chilies; cook until the raw smell disappears.",
+    "Add tomato puree and cook until oil separates from the masala.",
+    "Mix in turmeric, red chili powder, coriander powder, and salt; cook for 2 minutes.",
+    "Add sliced mushrooms and cook until they release water and start to soften.",
+    "Lower the heat and stir in whisked yogurt slowly to avoid curdling.",
+    "Cover and cook for 5-7 minutes until mushrooms are tender and flavors blend well.",
+    "Sprinkle garam masala and garnish with fresh coriander leaves.",
+    "Serve hot with roti, naan, or rice."
+  ]
+},
+"Vegetable Soup": {
+  title: "Vegetable Soup",
+  image: "r6.png",
+  ingredients: [
+    "2 cups mixed vegetables (carrots, beans, peas, corn)",
+    "1 onion (chopped)",
+    "2 tomatoes (chopped)",
+    "2 cloves garlic (minced)",
+    "4 cups vegetable broth or water",
+    "1 tablespoon oil",
+    "Salt and pepper to taste",
+    "Fresh herbs (parsley or coriander) for garnish"
+  ],
+  steps: [
+    "Heat oil in a large pot and sauté onions and garlic until fragrant and translucent.",
+    "Add chopped tomatoes and cook until soft.",
+    "Add mixed vegetables and stir for a couple of minutes.",
+    "Pour in the vegetable broth or water and bring to a boil.",
+    "Reduce heat and simmer for 15-20 minutes until vegetables are tender.",
+    "Season with salt and pepper.",
+    "Blend partially or fully if desired, or serve as is.",
+    "Garnish with fresh herbs before serving."
+  ]
+},
+"Pesarattu Upma": {
+  title: "Pesarattu Upma",
+  image: "r7.png",
+  ingredients: [
+    "1 cup semolina (rava)",
+    "2 cups water",
+    "1 onion (finely chopped)",
+    "1 green chili (finely chopped)",
+    "1/2 inch ginger (grated)",
+    "1/4 tsp mustard seeds",
+    "1/4 tsp cumin seeds",
+    "A few curry leaves",
+    "2 tbsp oil",
+    "Salt to taste",
+    "Fresh coriander (chopped)"
+  ],
+  steps: [
+    "Heat oil in a pan. Add mustard seeds, cumin seeds, and curry leaves; let them splutter.",
+    "Add chopped onions, green chili, and grated ginger. Sauté until onions turn translucent.",
+    "Add semolina and roast lightly for 2-3 minutes until aromatic.",
+    "Slowly add water while stirring continuously to avoid lumps.",
+    "Add salt and cook on low heat until the mixture thickens and semolina is cooked.",
+    "Garnish with fresh coriander and serve hot alongside Pesarattu."
+  ]
+},
+"Mirchi Bajji": {
+  title: "Mirchi Bajji",
+  image: "r8.png",
+  ingredients: [
+    "6-8 large green chilies (mild or medium spiciness)",
+    "1 cup gram flour (besan)",
+    "1/2 tsp turmeric powder",
+    "1/2 tsp red chili powder",
+    "A pinch of asafoetida (hing)",
+    "Salt to taste",
+    "Water (as needed to make batter)",
+    "Oil for deep frying"
+  ],
+  steps: [
+    "Wash and dry the green chilies. Slit them lengthwise and remove seeds (optional).",
+    "In a bowl, mix gram flour, turmeric, red chili powder, asafoetida, and salt.",
+    "Add water gradually to make a thick, smooth batter.",
+    "Heat oil in a deep frying pan over medium heat.",
+    "Dip each chili into the batter, coat evenly, and carefully drop into hot oil.",
+    "Fry until golden and crisp on all sides.",
+    "Remove and drain on paper towels. Serve hot with chutney or sauce."
+  ]
+},
+
+  // Add other recipes here using the same format...
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".recipe .card");
+
+  const modal = document.createElement("div");
+  modal.id = "recipeModal";
+  modal.style.display = "none";
+  modal.innerHTML = `
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="recipeTitle"></h2>
+      <img id="recipeImage" alt="" />
+      <h3 style="color:black ;font-size: 20px; margin-top: 15px;margin-bottom: 10px">Ingredients</h3>
+      <ul id="ingredientsList"></ul><br><br>
+      <h3 style="color:black;font-size: 20px; margin-top: 15px;margin-bottom: 10px">Steps</h3>
+      <ol id="stepsList"></ol>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const style = document.createElement("style");
+  style.innerHTML = `
+    #recipeModal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    .modal-content {
+      background: #fff;
+      padding: 20px;
+      max-width: 600px;
+      width: 90%;
+      max-height: 90%;
+      overflow-y: auto;
+      border-radius: 10px;
+      position: relative;
+    }
+    .modal-content img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      margin: 10px 0;
+    }
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  `;
+  document.head.appendChild(style);
+
+  cards.forEach((card) => {
+    const dishName = card.querySelector("p").textContent.trim();
+    card.querySelector("button").addEventListener("click", () => {
+      const recipe = recipes[dishName];
+      if (!recipe) {
+        alert("Recipe details not found for: " + dishName);
+        return;
+      }
+
+      document.getElementById("recipeTitle").textContent = recipe.title;
+      document.getElementById("recipeImage").src = recipe.image;
+      document.getElementById("recipeImage").alt = recipe.title;
+
+      const ingredientsList = document.getElementById("ingredientsList");
+      ingredientsList.innerHTML = "";
+      recipe.ingredients.forEach(ingredient => {
+        const li = document.createElement("li");
+        li.textContent = ingredient;
+        ingredientsList.appendChild(li);
+      });
+
+      const stepsList = document.getElementById("stepsList");
+      stepsList.innerHTML = "";
+      recipe.steps.forEach(step => {
+        const li = document.createElement("li");
+        li.textContent = step;
+        stepsList.appendChild(li);
+      });
+
+      modal.style.display = "flex";
+    });
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal || e.target.classList.contains("close-button")) {
+      modal.style.display = "none";
+    }
+  });
+});
+</script>
+
+    <!--------------categories section-------------------------------->
+    <div class="categories" id="categories">
+        <h2>categories</h2>
+        <div class="box">
+            <div class="ca-card">
+                <img src="maincourse.png" alt="">
+                <div class="content">
+                    <h3>Main Courses</h3>
+                    <p>Explore flavorful and filling dishes perfect for lunch or dinner. From rich curries to classic rice meals, our main course recipes bring variety and satisfaction to your table.</p>
+                    <a href="maincourse.html"><button>Read More</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="desserts.png" alt="">
+                <div class="content">
+                    <h3>Desserts</h3>
+                    <p>Indulge in sweet treats that delight every palate. From traditional classics to quick modern bites, our dessert recipes are the perfect ending to any meal.</p>
+                    <a href="desserts.html"><button>Read More</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="healthyeats.png" alt="">
+                <div class="content">
+                    <h3>Healthy Eats</h3>
+                    <p>Nutritious and delicious meals that fuel your body. Discover recipes made with wholesome ingredients, perfect for a balanced lifestyle.</p>
+                     <a href="healthyeats.html"><button>Read More</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="baking.png" alt="">
+                <div class="content">
+                    <h3>Baking</h3>
+                    <p>Warm, homemade treats straight from the oven. From bread to cookies, explore simple and satisfying baked recipes.</p>
+                     <a href="baking.html"><button>Read More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------contact section-------------------------->
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> Lakeview Colony,karim nagar,Hyderabad</p>
+            <p><strong>Phone:</strong>9865438765</p>
+            <p><strong>Email:</strong>minhajshaik@gmail.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+    </div>
+    <h5>CopyRight © 2023 By FOODIE. </h5>
+</footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
